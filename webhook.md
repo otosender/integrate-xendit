@@ -33,6 +33,5 @@ uSUZkbzEILcdfHaUVV40O2I3OfsVU9k9ClYf1UGV4AAChscH
 |                                | QR Reconciliation                   | `http://example.com`  | Discrepancy alerts. Investigate mismatches. |
 | **PAYMENT SESSION**            | Payment Session Completed           | `http://example.com`  | Customer completed checkout. Fulfill order. |
 |                                | Payment Session Expired             | `http://example.com`  | Abandoned cart. Trigger retargeting campaigns. |
-| **PAYMENT METHOD V2**          | Payment method                      | `http://example.com`  | New method added (e.g., card, bank). Update user profile. |
 
 ---
