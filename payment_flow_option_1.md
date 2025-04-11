@@ -50,7 +50,7 @@ sequenceDiagram
 
 ---
 
-## **Backend cURL Examples**  
+## **Backend cURL**  
 ### **1. Authentication**  
 - **Secret Key** (Backend-only):  
   ```bash
