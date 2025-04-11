@@ -1,5 +1,10 @@
 Webhook Listed. (Need to Add Used Webhook in Webhook URL space)
 
+- Webhook Verification Token:
+```
+uSUZkbzEILcdfHaUVV40O2I3OfsVU9k9ClYf1UGV4AAChscH
+```
+
 ---
 
 | Product Category               | Event Type                          | Webhook URL           | Notes |
