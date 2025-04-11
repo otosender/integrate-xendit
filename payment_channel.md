@@ -1,4 +1,4 @@
-####Payment Channel
+#Payment Channel
 
 | **CHANNEL**   | **TYPE**           | **ACTIVE STATUS** |
 |--------------|--------------------|------------------|
