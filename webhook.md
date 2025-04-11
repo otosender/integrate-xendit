@@ -31,10 +31,3 @@ Webhook Listed. (Need to Add Used Webhook in Webhook URL space)
 | **PAYMENT METHOD V2**          | Payment method                      | `http://example.com`  | New method added (e.g., card, bank). Update user profile. |
 
 ---
-
-### **Notes Column Details**:
-1. **Actionable**: Describes what to do when the webhook fires (e.g., reconcile, notify, validate).  
-2. **Technical**: Includes checks (e.g., fraud, reference IDs) and integration tips.  
-3. **Business Logic**: Ties events to workflows (e.g., subscriptions, refunds).  
-
-Let me know if you’d like adjustments to tone (more technical/casual) or additional details!
