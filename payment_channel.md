@@ -1,4 +1,4 @@
-|--------------|--------------------|------------------|
+
 | **CHANNEL**   | **TYPE**           | **ACTIVE STATUS** |
 |--------------|--------------------|------------------|
 | Visa         | Cards              | Inactive         |
@@ -24,4 +24,4 @@
 | CIMB         | Virtual Account    | Active           |
 | Mandiri      | Virtual Account    | Active           |
 | Permata      | Virtual Account    | Active           |
-|--------------|--------------------|------------------|
+
