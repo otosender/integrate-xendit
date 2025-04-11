@@ -1,8 +1,8 @@
 ### **1. Preparation**
 - **Xendit Account**  
   Create an account on the [Xendit Dashboard](https://dashboard.xendit.co/) and obtain your **API Key** (use *Sandbox* mode for testing).  
-  - Secret API Key: `xnd_development_Q8RrwXTaCJOJlA7ck87f5y2E9CNeXuYfpDi5RlPXClmytVGQjIro2Bn6MaB6Qrr`
-  - Public Key: `xnd_public_development_OfYSJLBmLVc4oWjkOgzd0QJ5HSJwCXLtg0FXm13tU_Zg9vFP0coayC2qN_ztlKer`
+  - Secret API Key: ```xnd_development_Q8RrwXTaCJOJlA7ck87f5y2E9CNeXuYfpDi5RlPXClmytVGQjIro2Bn6MaB6Qrr```
+  - Public Key: ```xnd_public_development_OfYSJLBmLVc4oWjkOgzd0QJ5HSJwCXLtg0FXm13tU_Zg9vFP0coayC2qN_ztlKer```
 
 - **Add Dependency**  
   In `build.gradle` (Module:app):
