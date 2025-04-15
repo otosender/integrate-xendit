@@ -151,6 +151,67 @@ curl -X POST \
 }
 ```
 
+#### **E. AstraPay**
+```bash
+curl --location 'https://api.xendit.co/ewallets/charges' \
+  -u "$XENDIT_SECRET_KEY:" \
+  -H "Content-Type: application/json" \
+--data '{
+    "reference_id": "order-id-1744706751",
+    "currency": "IDR",
+    "amount": 25000,
+    "checkout_method": "ONE_TIME_PAYMENT",
+    "channel_code": "ID_ASTRAPAY",
+    "channel_properties": {
+        "success_redirect_url": "https://redirect.me/payment",
+        "failure_redirect_url": "https://redirect.me/failed"
+    },
+    "metadata": {
+        "branch_city": "Senayan"
+    }
+}'
+```
+
+**Response**:  
+```json
+{
+    "id": "ewc_b481afb8-e949-4873-9902-529a7c18c9b7",
+    "business_id": "599bd7f1ccab55b020bb1147",
+    "reference_id": "order-id-1655711349",
+    "status": "PENDING",
+    "currency": "IDR",
+    "charge_amount": 25000,
+    "capture_amount": 25000,
+    "refunded_amount": null,
+    "checkout_method": "ONE_TIME_PAYMENT",
+    "channel_code": "ID_ASTRAPAY",
+    "channel_properties": {
+        "success_redirect_url": "https://redirect.me/payment",
+        "failure_redirect_url": "https://redirect.me/failed"
+    },
+    "actions": {
+        "desktop_web_checkout_url": "https://ewallet-mock-connector.xendit.co/v1/ewallet_connector/checkouts?token=a4eb5b55-1e49-46d1-8459-313d33733c10",
+        "mobile_web_checkout_url": "https://ewallet-mock-connector.xendit.co/v1/ewallet_connector/checkouts?token=a4eb5b55-1e49-46d1-8459-313d33733c10",
+        "mobile_deeplink_checkout_url": null,
+        "qr_checkout_string": null
+    },
+    "is_redirect_required": true,
+    "callback_url": "https://www.google.com",
+    "created": "2022-06-20T07:49:11.009452Z",
+    "updated": "2022-06-20T07:49:11.009452Z",
+    "void_status": null,
+    "voided_at": null,
+    "capture_now": true,
+    "customer_id": null,
+    "payment_method_id": null,
+    "failure_code": null,
+    "basket": null,
+    "metadata": {
+        "branch_city": "Senayan"
+    }
+}
+```
+
 ---
 
 ## **Android Integration**  
