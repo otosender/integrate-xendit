@@ -1,5 +1,3 @@
-Here’s a **comprehensive document** listing **Xendit Payment Callback Statuses and Codes** for integration reference. You can save this as a Markdown (`.md`) or text (`.txt`) file.
-
 ---
 
 # **Xendit Payment Callback Status Reference**  
